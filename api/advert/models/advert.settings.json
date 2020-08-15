@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adverts",
+  "info": {
+    "name": "Advert"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "location": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "kiralik",
+        "satilik"
+      ]
+    },
+    "roomcount": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "buildage": {
+      "type": "integer"
+    },
+    "floorcount": {
+      "type": "string"
+    },
+    "floorcurrent": {
+      "type": "string"
+    },
+    "bathcount": {
+      "type": "integer"
+    },
+    "furnished": {
+      "type": "boolean",
+      "default": false
+    },
+    "incomplex": {
+      "type": "boolean",
+      "default": false
+    },
+    "heating": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

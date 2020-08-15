@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/adverts",
+      "handler": "advert.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adverts/count",
+      "handler": "advert.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/adverts/:id",
+      "handler": "advert.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/adverts",
+      "handler": "advert.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/adverts/:id",
+      "handler": "advert.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/adverts/:id",
+      "handler": "advert.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
