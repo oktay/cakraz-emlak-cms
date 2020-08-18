@@ -18,6 +18,19 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "heroimg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "published": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

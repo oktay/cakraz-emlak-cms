@@ -25,12 +25,13 @@
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
       "required": false
+    },
+    "full_address": {
+      "type": "richtext"
     }
   }
 }
