@@ -29,7 +29,8 @@
       "enum": [
         "kiralik",
         "satilik"
-      ]
+      ],
+      "default": "kiralik"
     },
     "roomcount": {
       "type": "string"
