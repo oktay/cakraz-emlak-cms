@@ -81,7 +81,8 @@
     },
     "published": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "required": true
     }
   }
 }

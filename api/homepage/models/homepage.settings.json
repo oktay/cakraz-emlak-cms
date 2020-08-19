@@ -10,16 +10,20 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "phone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true
     },
     "heroimg": {
       "model": "file",
@@ -28,10 +32,11 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "full_address": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
