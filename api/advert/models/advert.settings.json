@@ -83,6 +83,9 @@
       "type": "boolean",
       "default": true,
       "required": true
+    },
+    "status": {
+      "type": "string"
     }
   }
 }
