@@ -40,11 +40,11 @@
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     },
     "keywords": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }
