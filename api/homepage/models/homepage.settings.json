@@ -37,6 +37,14 @@
     "full_address": {
       "type": "richtext",
       "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
     }
   }
 }
