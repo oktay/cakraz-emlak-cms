@@ -86,6 +86,9 @@
     },
     "status": {
       "type": "string"
+    },
+    "highlight": {
+      "type": "boolean"
     }
   }
 }
