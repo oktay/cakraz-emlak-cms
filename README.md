@@ -1,3 +1,12 @@
-# Strapi application
+# Cakraz Emlak CMS
 
-A quick description of your strapi application
+CMS for real estate website.
+
+
+## 🚀 Runserver
+   
+   Start Strapi Backend
+   ```bash
+   cd cakraz-emlak-cms
+   yarn develop
+   ```
