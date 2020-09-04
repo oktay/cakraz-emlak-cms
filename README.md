@@ -23,3 +23,4 @@ cd cakraz-emlak-cms
 yarn install
 yarn develop
 ```
+*Your backend/cms is now running at `http://localhost:1337!`*
