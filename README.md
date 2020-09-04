@@ -12,7 +12,7 @@ psql postgres # or psql -U postgres
 # psql shell
 CREATE DATABASE cakraz;
 CREATE ROLE strapi WITH LOGIN PASSWORD 'strapi' CREATEDB;
-GRANT ALL PRIVILEGES ON DATABASE dbname TO strapi;
+GRANT ALL PRIVILEGES ON DATABASE strapi TO strapi;
 ```
 
 ## 🚀 Runserver
