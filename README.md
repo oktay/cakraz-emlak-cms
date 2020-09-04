@@ -20,5 +20,6 @@ GRANT ALL PRIVILEGES ON DATABASE dbname TO strapi;
 Start Strapi Backend
 ```bash
 cd cakraz-emlak-cms
+yarn install
 yarn develop
 ```
