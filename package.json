@@ -12,7 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
-    "pg": "8.5.1",
+    "pg": "^7.18.2",
     "pg-connection-string": "^2.4.0",
     "slugify": "^1.4.5",
     "strapi": "3.5.2",
