@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "knex": "^0.21.1",
+    "knex": "<0.21.1",
     "pg": "^7.18.2",
     "pg-connection-string": "^2.4.0",
     "slugify": "^1.4.5",
@@ -33,7 +33,7 @@
     "uuid": "fb6ceb04-7f65-43a5-9aae-276a2587dfef"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": "12.16.x",
     "npm": "^6.0.0"
   },
   "license": "MIT"
