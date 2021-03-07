@@ -13,9 +13,13 @@ module.exports = () => ({
         database: config.database,
         username: config.user,
         password: config.password,
-        ssl: false,
+        ssl: {
+          rejectUnauthorized: false,
+        },
       },
-      options: {},
+      options: {
+        ssl: false,
+      }
     },
   },
 });
