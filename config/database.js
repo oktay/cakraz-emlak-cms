@@ -23,7 +23,6 @@ module.exports = ({ env }) => ({
           max: 20,
         },
       },
-      poo
     },
   },
 });
