@@ -1,6 +1,7 @@
 version: '3'
 services:
   strapi:
+    container_name: cakrazemlak_strapi
     image: strapi/strapi
     environment:
       DATABASE_CLIENT: postgres
@@ -17,10 +18,9 @@ services:
       - postgres
 
   postgres:
+    container_name: cakrazemlak_postgres
     image: postgres
     environment:
       POSTGRES_DB: cakraz
       POSTGRES_USER: strapi
       POSTGRES_PASSWORD: strapi
-    volumes:
-      - ./data:/var/lib/postgresql/data
